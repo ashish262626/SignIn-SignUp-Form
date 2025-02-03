@@ -9,3 +9,14 @@ sign_up_btn.addEventListener('click', () =>{
 sign_in_btn.addEventListener('click', () =>{
     container.classList.remove("sign-up-mode");
 });
+<button onclick="redirect()">
+        Login
+    </button>
+
+    <!-- Redirect to Another Webpage -->
+    <script>
+        function redirect() {
+            window.location.href = 
+                "https://www.geeksforgeeks.org/";
+        }
+    </script>
